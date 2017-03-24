@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="@string/Music_title"
+        android:summary="@string/Music_summary"
+        android:key="music"
+        android:defaultValue="true"/>
+    <CheckBoxPreference android:title="@string/Hints_title"
+        android:summary="@string/Hints_summary"
+        android:key="hints"
+        android:defaultValue="false"/>
+</PreferenceScreen>

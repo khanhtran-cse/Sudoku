@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/main_bg">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="50dp"
+                android:text="@string/app_name" />
+        </TableRow>
+
+        <TableRow
+            android:gravity="center_horizontal">
+            <Button style="@style/MyButton"
+                android:id="@+id/btn_NewGame"
+                android:text="@string/btn_NewGame_title"/>
+            <Button style="@style/MyButton"
+                android:id="@+id/btn_Continue"
+                android:text="@string/btn_Continue_title"/>
+        </TableRow>
+
+        <TableRow
+            android:gravity="center_horizontal">
+            <Button style="@style/MyButton"
+                android:id="@+id/btn_About"
+                android:text="@string/btn_About_title"/>
+            <Button style="@style/MyButton"
+                android:id="@+id/btn_Settings"
+                android:text="@string/btn_Setting_title"/>
+        </TableRow>
+        <TableRow
+            android:gravity="center">
+            <Button style="@style/MyButton"
+                android:id="@+id/btn_Quit"
+                android:text="@string/btn_Quit_title"/>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

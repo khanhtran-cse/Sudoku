@@ -1,0 +1,35 @@
+<?xml version ="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:gravity="center_horizontal"
+    android:background="@mipmap/main_bg"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textSize="50dp"
+        android:layout_marginBottom="20dp"/>
+    <Button
+        style="@style/MyButton"
+        android:id="@+id/btn_NewGame"
+        android:text="@string/btn_NewGame_title" />
+    <Button
+        style="@style/MyButton"
+        android:id="@+id/btn_Continue"
+        android:text="@string/btn_Continue_title"/>
+    <Button
+        style="@style/MyButton"
+        android:id="@+id/btn_About"
+        android:text="@string/btn_About_title"/>
+    <Button style="@style/MyButton"
+        android:id="@+id/btn_Settings"
+        android:text="@string/btn_Setting_title"/>
+    <Button style="@style/MyButton"
+        android:id="@+id/btn_Quit"
+        android:text="@string/btn_Quit_title"/>
+</LinearLayout>

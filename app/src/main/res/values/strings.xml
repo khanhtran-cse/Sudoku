@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Sudoku</string>
+    <string name="btn_NewGame_title">New Game</string>
+    <string name="btn_Continue_title">Continue</string>
+    <string name="btn_About_title">About</string>
+    <string name="btn_Quit_title">Quit</string>
+    <string name="btn_Setting_title">Settings</string>
+    <string name="About_title">About Sudoku</string>
+    <string name="About_content">This game is designed by Tran Quoc Khanh at 15/03/2017.\n
+        You have to fill the tiles a number from 1 to 9 in oder to the gird consists of all number from 0 to 9.</string>
+
+    <string name="Setting_label">Settings</string>
+    <string name="Music_title">Play music</string>
+    <string name="Music_summary">Play the background music</string>
+    <string name="Hints_title">Show hints</string>
+    <string name="Hints_summary">Show hints when playing game</string>
+    <string name="btn_OK">OK</string>
+
+    <string name="Difficultly_title">Difficultly</string>
+    <string name="Easy_title">Easy</string>
+    <string name="Medium_title">Medium</string>
+    <string name="Hard_title">Hard</string>
+
+    <string name="Keypad_title">Keypad</string>
+
+    <string name="Result_Win">You are win</string>
+    <string name="Result_Lose">You are lose</string>
+    <string name="Result_Win_Summary">Intelligent. You win the problem.</string>
+    <string name="Result_Lose_Summary">Stupid. You lose.</string>
+</resources>
